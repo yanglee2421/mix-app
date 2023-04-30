@@ -1,10 +1,14 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div></div>
+  <el-table></el-table>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#root {
+  height: 100%;
+}
+</style>
 <script lang="ts">
 export default { inheritAttrs: true };
 </script>
